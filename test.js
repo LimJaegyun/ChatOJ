@@ -52,7 +52,6 @@ Client.connect('mongodb://192.168.0.24:27017/', function(error, db) {
                     });
                 }
             }
-            w
         });
 
         app.get('/test', function(req,res) {
